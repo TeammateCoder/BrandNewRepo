@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyNewConsoleApp
 {
-    class Class1
+    class Team
     {
-        public string Name { get; set; }
-        public string Address { get; set; }
+        public List<Person> People { get; set; }
     }
 }
